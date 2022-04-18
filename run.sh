@@ -24,7 +24,6 @@ if [[ $result != $count ]];then
 	echo -e "Patching successful!\n"
 else
 	echo -e "No changes were made!\nAbort."
-	cleanup
 	exit 1
 fi
 
